@@ -77,7 +77,7 @@ client.on("message", (message) => {
                 var roll = Math.floor(Math.random() * sides) + 1;
                 sum += roll;
                 if (roll == sides) {
-                    rolls.push("Natural mutha fookin " + sides);
+                    rolls.push("Natural mutha fuckin " + sides);
                 } else {
                     rolls.push(roll);
                 }
